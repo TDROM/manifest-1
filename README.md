@@ -14,7 +14,12 @@ Let that install and then proceed. More copy and paste:
 [Hint: Running this command installs the other required packages to build android]
 
 $ sudo apt-get update && sudo apt-get install git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk3.0-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev openjdk-8-jre openjdk-8-jdk pngcrush schedtool libxml2 libxml2-utils xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev gcc-multilib maven tmux screen w3m ncftp liblz4-tool pngquant rsync openssl libssl-dev build-essential libidn11-dev libidn11
+
+
+
 Getting the Source
+
+
 Making required directories Obtaining the repo binary Adding repo binary to your path Giving the repo binary proper permissions Initializing an empty repo Syncing the repo Alright, so now we’re getting there. I have outlined the basics of what we’re about to do and broke them down as I know them. This is all pretty much going to be copy/paste so it’ll be fairly difficult to screw this up :) Make directory for the repo binary
 
 $ mkdir ~/bin
